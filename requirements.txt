@@ -1,0 +1,5 @@
+# Powered By : ©heartbrokenperson1 
+# Copyright (C) 2022 @KatilXUpdates
+
+telethon>=1.21.1
+requests
