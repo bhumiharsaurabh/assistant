@@ -3,7 +3,7 @@
 
 import glob
 from pathlib import Path
-from Katil.utils.util import load_plugins
+from assistant.utils.util import load_plugins
 import logging
 from Katil import Saurabh
 
