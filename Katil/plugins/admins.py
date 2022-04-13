@@ -1,6 +1,6 @@
 from telethon import events, Button
-from assistant import Sammy
-from assistant.tools import *
+from Katil import Saurabh
+from Katil.tools import *
 from telethon.tl.functions.channels import EditAdminRequest
 from telethon.tl.types import ChatAdminRights
 from telethon.tl.functions.users import GetFullUserRequest
@@ -41,7 +41,7 @@ async def promote(event, perm):
 
     await event.reply(f"Succesfully Promoted {input_str} in {event.chat.title}")
  
-@SAurabh.on(events.NewMessage(pattern="^[!?/]demote ?(.*)"))
+@Saurabh.on(events.NewMessage(pattern="^[!?/]demote ?(.*)"))
 @is_admin
 async def promote(event, perm):
     if event.is_private:
