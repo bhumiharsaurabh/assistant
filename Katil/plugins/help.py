@@ -17,7 +17,7 @@ btn =[
         Button.inline("Chat Cleaner", data="zombies")],
         Button.inline("Back", data="start")
       ]
-)
+]
 
 HELP_TEXT = """
 **Heya {} help menu here:**
