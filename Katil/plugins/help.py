@@ -2,7 +2,7 @@ from telethon import events, Button
 from Katil import Saurabh
 from Katil.Conf import Config
 
-btn =[
+btn =
       [
         Button.inline("Admin", data="admin"),
         Button.inline("Bans", data="bans"), 
@@ -17,7 +17,7 @@ btn =[
         Button.inline("Chat Cleaner", data="zombies")],
         Button.inline("Back", data="start")
       ]
-     ]
+     
 
 HELP_TEXT = """
 **Heya {} help menu here:**
